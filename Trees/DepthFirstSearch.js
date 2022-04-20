@@ -8,20 +8,20 @@ function traverseDFS (root) {
   const stack = [root]
   const res = []
 
-  while (stack.length) {
-    const curr = stack.pop()
-    res.push(curr.key)
+  // while (stack.length) {
+  //   const curr = stack.pop()
+  //   res.push(curr.key)
 
-    if (curr.right) {
-      stack.push(curr.right)
-    }
+  //   if (curr.right) {
+  //     stack.push(curr.right)
+  //   }
 
-    if (curr.left) {
-      stack.push(curr.left)
-    }
-  }
+  //   if (curr.left) {
+  //     stack.push(curr.left)
+  //   }
+  // }
 
-  return res.reverse()
+  // return res.reverse()
 }
 
 function searchDFS (tree, value) {
